@@ -5,7 +5,7 @@ body {
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
-	background: linear-gradient(to right, green , red); /* Standard syntax */
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
 }
 
 h1 {
@@ -24,4 +24,14 @@ h3 {
     text-transform: none;
     letter-spacing: 0.01em;
 
+}
+
+.random {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
 }
